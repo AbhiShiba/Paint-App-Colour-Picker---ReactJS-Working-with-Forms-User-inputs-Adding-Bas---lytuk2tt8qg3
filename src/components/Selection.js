@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import '../styles/Child.css'
 
 export default function Selection(props) {
     let [nextBackground, selectNextBackground] = useState({ background: "" });
